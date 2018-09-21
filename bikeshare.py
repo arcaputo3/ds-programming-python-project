@@ -15,6 +15,10 @@ def print_head():
 def print_fun_stuff():
     print("fun stuff")
 
+def print_City_Data():
+    for key, val in CITY_DATA.items():
+        print("The data for {} is located in {}".format(key,val))
+
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
