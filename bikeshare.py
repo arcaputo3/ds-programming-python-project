@@ -15,6 +15,12 @@ def print_head():
         print("First five values of {}'s dataset".format(key))
         print(pd.read_csv(value).head())
 
+def print_fun_stuff():
+    print("fun stuff")
+
+def print_City_Data():
+    for key, val in CITY_DATA.items():
+        print("The data for {} is located in {}".format(key,val))
 
 # A comment here
 def get_filters():
