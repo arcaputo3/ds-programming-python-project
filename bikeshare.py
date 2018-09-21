@@ -4,6 +4,7 @@ import numpy as np
 
 
 # Adding some comments
+# More comments
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -15,6 +16,7 @@ def print_head():
         print(pd.read_csv(value).head())
 
 
+# A comment here
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -64,7 +66,7 @@ def get_filters():
     
     return city, month, day
 
-    
+# A comment there
 
 
 def load_data(city, month, day):
