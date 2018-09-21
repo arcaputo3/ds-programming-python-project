@@ -12,6 +12,8 @@ def print_head():
         print("First five values of {}'s dataset".format(key))
         print(pd.read_csv(value).head())
 
+def print_fun_stuff():
+    print("fun stuff")
 
 def get_filters():
     """
